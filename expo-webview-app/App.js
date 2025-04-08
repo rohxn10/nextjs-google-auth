@@ -5,7 +5,7 @@ import { WebView } from 'react-native-webview';
 export default function App() {
   const WEBVIEW_URL = Platform.select({
     ios: 'http://localhost:3000',
-    android: 'http://192.168.0.101:3000', // ⬅️ replace with your actual IP if you're on Android
+    android: 'http://192.168.29.157:3000', // ⬅️ replace with your actual IP if you're on Android
   });
 
   return (
