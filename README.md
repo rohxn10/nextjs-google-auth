@@ -12,11 +12,3 @@ This project is a simple **React Native WebView app** built with **Expo**, featu
 - 💻 Can run directly on a real Android device via **ADB**, no emulator required
 
 ---
-
-## 🔧 Installation
-
-### 1. Clone this repo
-
-```bash
-git clone https://github.com/yourusername/expo-webview-app.git
-cd expo-webview-app
