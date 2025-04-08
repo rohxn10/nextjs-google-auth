@@ -1,14 +1,16 @@
-# 📱 Expo WebView App with Native Firebase Cloud Messaging (FCM)
+# Expo WebView App with Native FCM
 
-This project is a simple **React Native WebView app** built with **Expo**, featuring **native push notifications via Firebase Cloud Messaging (FCM)**. It runs on real Android devices without requiring Android Studio.
+This is a React Native app built using Expo that loads a web app in a WebView and supports native Firebase Cloud Messaging (FCM) push notifications.
 
----
+## 🚀 How to Run
 
-## 🚀 Features
+1. Install dependencies:
 
-- 📦 Built with **Expo SDK 52**
-- 🌐 Loads a web app via `WebView`
-- 🔔 Implements **native FCM** for push notifications
-- 💻 Can run directly on a real Android device via **ADB**, no emulator required
+```bash
+npm install
 
----
+2.Connect your Android device via USB and make sure ADB is set up:
+adb devices
+
+3.Run the app on your device:
+npx expo run:android
