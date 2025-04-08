@@ -1,0 +1,17 @@
+# Node
+node_modules/
+.next/
+dist/
+npm-debug.log*
+
+# Expo
+.expo/
+.expo-shared/
+web-build/
+*.apk
+
+# macOS / system files
+.DS_Store
+
+# dotenv
+.env*
